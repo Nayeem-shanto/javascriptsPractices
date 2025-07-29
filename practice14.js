@@ -55,8 +55,8 @@ if (examNumber >= 90) {
 } */
 
   /* Nested Friend  */
-  var marks = 85;
-  var friendsMark= 35;
+  /* var marks = 98;
+  var friendsMark= 85;
 
   if(marks > 80){
     if( friendsMark > 80){
@@ -75,4 +75,46 @@ if (examNumber >= 90) {
   }
   else{
     console.log("Go Home and Sleep")
+  }
+ */
+/* practice task-5 */
+
+// var num1 = 5;
+// var num2 = 10;
+
+/* if(num1 > num2){
+  var result = (num1*num1);
+  console.log(result);
+}
+else{
+  var result = (num1 + num2);
+  console.log(result);
+} */
+
+  // var result = (num1 > num2) ? (num1*num1) : (num1 + num2);
+  // console.log(result);
+
+  /* Bus fare Calculator */
+  let busFare = 800;
+  var childrenAge = 14;
+  var passenger = 'students';
+  var citizen = 65;
+
+  if(childrenAge < 10){
+    console.log("The bus fare is free");
+  }
+  else if(passenger == 'students'){
+    var studentFare = (busFare/2);
+    console.log(studentFare);
+  }
+  else if(citizen >= 60){
+
+
+    var citizenFare = (busFare * .85);
+    console.log(citizenFare);
+
+  }
+
+  else {
+    console.log("Otherwise the ticket fare 800 tk.");
   }
