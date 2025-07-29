@@ -34,4 +34,12 @@ console.log("The average marks of a student is =", averageMarks.toFixed(2)); */
 //   console.log("The remained = ", remainder);
 // console.log("The remainder is =", (number%dividedNumber));
 
+/* Practice task-4 */
+
+const a =isNaN('11')
+console.log(a);
+const a2 = isNaN(2-10);
+console.log(a2);
+const c = isNaN('Shanto');
+console.log(c);
 
